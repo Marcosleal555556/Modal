@@ -19,7 +19,7 @@ export default function App() {
       <Modal transparent={true} animationType="fade" visible={visible}>
         <View style={styles.fundo}>
         <View style={styles.modal}>
-        <Text style={{ fontSize: 200 }}>Marcos</Text>
+        <Text style={{ fontSize: 20 }}>Marcos</Text>
         <Button title="Fechar modal" onPress={() => visModal(false)} />
         </View>
         </View>
